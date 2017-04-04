@@ -20,7 +20,7 @@ function makeIceCream($theName, $theFlavors, $theIceCream, $theQuantity) {
       $theTotal = 'Total: $'.number_format($total, 2);
       $description = $theName.' ordered '.$theQuantity.' '.$theIceCream.'  ice cream cone';
     } elseif ($theQuantity > 50) {
-      $title = 'No '.titlecase($theIceCream).'cones for '.$theName;
+      $title = 'No '.titlecase($theIceCream).' cups for '.$theName;
       $theIceCream= 'rediculous';
       $description = 'Don&rsquo;t be silly, '.$theName.', that&rsquo;s more ice cream than any person can ever scoop on time! Also, you don&rsquo;t have $'.number_format($total, 2).'!';
     } else {

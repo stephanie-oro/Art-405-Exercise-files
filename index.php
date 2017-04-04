@@ -38,7 +38,7 @@
       <h1 class="pb-4 font-weight-bold text-center">What Will You Scoop?</h1>
       <form class="form-inline justify-content-center" action="" method="post">
         <label for="name" class="sr-only">Name</label>
-        <input class="form-control mr-2" type="text" value="<?php echo ( $theName ? $theName : '' );?>" placeholder="Name" name="name" id="name"> <span class="mr-2">wants a</span>
+        <input class="form-control mr-2" type="text" value="<?php echo ( $theName ? $theName : '' );?>" placeholder="Name" name="name" id="name"> <span class="mr-2">wants </span>
         <select class="custom-select mr-2" name="icecream" id="icecream">
           <?php echo '<option value="'.( $theIceCream ? $theIceCream : 'nothing' ).'">'.( $theIceCream ? capfirst($theIceCream) : 'Select a Flavor' ).'</option>'; ?>
           <?php foreach ($theFlavors as $flavor => $price) {
