@@ -26,7 +26,7 @@ function makeIceCream($theName, $theFlavors, $theIceCream, $theQuantity) {
     } else {
       $title = titlecase($theIceCream).' for '.$theName;
       $theTotal = 'Total: $'.number_format($total, 2);
-      $description = $theName.' ordered '.number_format($theQuantity).' '.$theIceCream.' ice cream cones.';
+      $description = $theName.' ordered '.number_format($theQuantity).' '.$theIceCream.' ice cream cups.';
     }
   } else {
     $valid = false;
